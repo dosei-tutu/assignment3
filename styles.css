@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    font-size: 16px;
+}
+img{
+  width: 100%;
+  height: 30%;
+  object-fit: contain;
+}
+.container {
+  max-width: 800px;
+  padding: 10px;
+  margin: 0 auto;
+}
+.photo {
+  max-width: 600px;
+  padding: 10px;
+  margin: 0 auto;
+}
+h2 {
+  font-style: italic;
+}
+p{
+  font-size: 1.3rem;
+  color: black;
+}
+body{
+  background-color: ##EEEE9B;
+}
+.chart {
+  border: 2px;
+}
+img {min-width: 50%;}
+/* FOR SMALLER SCREENS */
+@media(min-width: 700px) {
+  body{
+    background-color: #fffdd0;
+    width:100%;
+  }
